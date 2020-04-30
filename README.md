@@ -8,3 +8,6 @@ This format is especially useful for experiments soliciting higher-level judgmen
 
 The naturalistic dialogue-setting encourages participants to read the entire dialogue, allowing the experimenter to control 
 context-sensitive properties such as the QuD and focus.
+
+
+(Thank you to Caitlin Kronk for drawing the illustrations in the example given here.)
