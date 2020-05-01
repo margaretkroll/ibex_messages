@@ -3,7 +3,13 @@
   var getHTML = function(l) {
   var ret = "";
   var dtype = "";
+  var i1url = "optionalPictureLink.png";
+    
+  var i2url = i1url;
+  ret += "<div class='textboxes-instructions'>Here are some optional instructions</b></div>";
+  ret += "<div class='textboxes-text'>";
 
+  ret += "<div class='textboxes-pictures'><img src='"+i1url+"'/></div>";
   for (var i= 0; i < l.length; i+=1) {
     if(i %2 == 0) {
       ret += "<div class='textboxes-q'>" + l[i] + "<br></div><br>";
@@ -12,7 +18,7 @@
     }
   }
   ret += "</div>";
-  ret += "<div class='textboxes-question'> <br><br><br><center></div>";
+  ret += "<div class='textboxes-question'>Here an optional message at the bottom of the screen<br><br><br><center></div>";
   return ret;
 };
 
